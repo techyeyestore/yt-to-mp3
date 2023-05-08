@@ -31,7 +31,7 @@
       <h1>YT To MP3 -- YouTube to MP3 Converter --</h1>
       <h4>ENTER URL HERE</h4>
       <div>
-        <input type="text" name="videoID" placeholder="Enter URL Here..."> <a href='https://yttomp3.cloud/'><button id="submit-btn">Convert</button></a>
+        <input type="text" name="videoID" placeholder="Enter URL Here..."><a class="button-link"href='https://yttomp3.cloud/'><button id="submit-btn">Convert</button></a>
       </div>
     </form>
   </div>
@@ -178,25 +178,7 @@
 
 
 </div>
-<script>
-  // Get all the FAQ questions
-const questions = document.querySelectorAll('.question');
 
-// Add click event listeners to each question
-questions.forEach((question) => {
-question.addEventListener('click', () => {
-  // Toggle the active class on the clicked question
-  question.classList.toggle('active');
-  
-  // Get the answer element corresponding to the clicked question
-  const answer = question.nextElementSibling;
-  
-  // Toggle the active class on the answer element
-  answer.classList.toggle('active');
-});
-});
-
-</script>
 </body>
 
 </html>
