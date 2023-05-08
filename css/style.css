@@ -132,6 +132,7 @@ h1{
   font-family: inherit;
   box-shadow: 2px 3px 5px gray;
   transition: 0.3s ease-out;
+  text-decoration:none;
 }
 
 #form a:hover{
