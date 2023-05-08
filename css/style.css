@@ -122,7 +122,7 @@ h1{
   box-shadow: 2px 2px 5px gray;
 }
 
-#form button{
+#form a{
   padding: 14px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -134,7 +134,7 @@ h1{
   transition: 0.3s ease-out;
 }
 
-#form button:hover{
+#form a:hover{
   color:white;
   background-color:  red;
   border: 1px solid  red;
